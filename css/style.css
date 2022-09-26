@@ -1,0 +1,206 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#title{
+    /* background-image: url(/img/banner.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffff;
+    /* position: relative;
+    background: url(/img/ULOGO-1.png);
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.nav-item{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 700;
+}
+.nav-item:hover{
+    background-color: #1a222b;
+}
+.active1{
+    background-color: #ff8a00;
+}
+.active1:hover{
+    background-color: #ff8800e9;
+}
+
+.home{
+    margin-top: 10%;
+    text-align: center;
+    color: #ffff;
+}
+.hm1{
+    font-size: 2.875rem;
+}
+.hm2{
+    font-size: 4.375rem;
+}
+.btn{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 8.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* About */
+#about{
+    background-color: #77859157;
+    padding: 3% 15%;
+}
+.abt-title{
+    color: #778591;
+    font-size: 2rem;
+    margin: 5% 0;
+}
+/* hr {
+    border: dotted #00000020 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+} */
+.abt-subtitle{
+    color: #212529;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+#about .abt-style{
+    text-align: center;
+}
+.u-info{
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* Events */
+#events{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    padding: 3% 3%;
+    text-align: center;
+}
+.et-title{
+    color: #ffff;
+    margin: 5% 0;
+}
+.card{
+    margin:5% 5%;
+}
+.card-img-top{
+    height: 13.1rem;
+}
+.ev-bt{
+    width: 10rem;
+    background-color: #ff8a00;
+}
+
+/* footer */
+
+#footer{
+    background-color: #d1d5d9;
+     text-align: center;
+}
+.box2{
+    max-width: 99vw;
+}
+.slogan-ft{
+    padding-top: 5%;
+    color:#212529;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.message a{
+    text-decoration: none;
+    color: #6495ed;
+}
+.sc{
+    color:#212529;
+    font-size: 1.5rem;
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: #212529;
+}
+.footer-nav li a:hover{
+    color: #ff8a00;
+}
+.socials{
+    border-left: 6px solid #ff8a00 ;
+    height: 10rem;
+}
+.socials a{
+    text-decoration: none;
+    color: #212529;
+}
+.socials a:hover{
+    color: #0d6efd;
+}
+.socials i{
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.copyr{
+    margin-top: 2%;
+    margin-bottom: 0;
+    color: #778591;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .home{
+        margin-top: 30%;
+    }
+    .style-title{
+        margin-top: 10%;
+    }
+    .hm1{
+        font-size: 1.25rem;
+    }
+    .hm2{
+        font-size: 2.375rem;
+    }
+    .reg-bt{
+        margin-top: 15%;
+        margin-bottom: 3%;
+    }
+    #title{
+        height: 100vh;
+    }
+    .u-info{
+        margin: 6.5% 0;
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .card{
+        margin: 5% auto;
+    }
+
+}
+
+
+/* 209.600 */
+/* 262 */

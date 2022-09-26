@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url(/img/banner.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/banner2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.nav-item{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+}
+.event-nav:hover{
+    background-color: #1a222b;
+}
+.active1{
+    background-color: #ff8a00;
+}
+.active1:hover{
+    background-color: #ff8800e9;
+}
+.container{
+    padding: 3% 3%;
+    text-align: center;
+}
+.et-title{
+    color: #ffff;
+    margin: 0 0 5% 0;
+}
+.card{
+    margin:5% 5%;
+}
+.card-img-top{
+    height: 13.1rem;
+}
+.tech-title{
+    color: #ffff;
+
+}
+#footer{
+    background-color: #d1d5d9;
+     text-align: center;
+}
+.box2{
+    max-width: 99vw;
+}
+.slogan-ft{
+    padding-top: 5%;
+    color:#212529;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.message a{
+    text-decoration: none;
+    color: #6495ed;
+}
+.sc{
+    color:#212529;
+    font-size: 1.5rem;
+}
+.footer-nav ul{
+    list-style: none;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: #212529;
+}
+.socials{
+    border-left: 6px solid #ff8a00 ;
+    height: 10rem;
+}
+.socials i{
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.copyr{
+    margin-top: 2%;
+    margin-bottom: 0;
+    color: #778591;
+}
+.footer-nav li a:hover{
+    color: #ff8a00;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #212529;
+}
+.socials a:hover{
+    color: #0d6efd;
+}
+@media only screen and (max-width: 480px) {
+    .card{
+        margin: 5% auto;
+    }
+
+}
