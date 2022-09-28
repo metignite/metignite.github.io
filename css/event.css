@@ -45,7 +45,14 @@ body{
 }
 .tech-title{
     color: #ffff;
-
+}
+.cl-title{
+    color: #521971;
+    font-weight: 700;
+}
+.view-more{
+    background-color: #792f7c;
+    border-color: #792f7c;
 }
 #footer{
     background-color: #d1d5d9;
